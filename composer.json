@@ -1,0 +1,27 @@
+{
+    "name": "kolya/test",
+    "description": "Потоковий імпорт заявок із XLSX у базу даних",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kolya\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shamrylo Mykola",
+            "email": "itlutsk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-dom": "*",
+        "ext-pdo": "*",
+        "ext-xmlreader": "*",
+        "ext-zip": "*"
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}

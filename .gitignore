@@ -1,0 +1,6 @@
+/.env
+/vendor/
+/storage/*.sqlite
+/storage/imports/*
+!/storage/imports/.gitkeep
+.idea
